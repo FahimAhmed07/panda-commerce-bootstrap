@@ -6,6 +6,10 @@
 }
 .categories img{
         width: 100px;
+        transition: transform 1s ease-in-out;
+}
+.categories img:hover{
+    transform: scale(1.3);
 }
 .watch-bg{
     background-color: orange;
